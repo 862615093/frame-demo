@@ -12,18 +12,18 @@ import java.util.List;
 public class AutoConfigDemo {
 
     public static void main(String[] args) {
-        GenericApplicationContext context = new GenericApplicationContext();
-        context.getDefaultListableBeanFactory().setAllowBeanDefinitionOverriding(false);
-        context.registerBean("config", Config.class);
-        context.registerBean(ConfigurationClassPostProcessor.class);
-        context.refresh();
-
-        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>");
-        for (String name : context.getBeanDefinitionNames()) {
-            System.out.println(name);
-        }
-        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>");
-        System.out.println(context.getBean(Bean1.class));
+//        GenericApplicationContext context = new GenericApplicationContext();
+//        context.getDefaultListableBeanFactory().setAllowBeanDefinitionOverriding(false);
+//        context.registerBean("config", Config.class);
+//        context.registerBean(ConfigurationClassPostProcessor.class);
+//        context.refresh();
+//
+//        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>");
+//        for (String name : context.getBeanDefinitionNames()) {
+//            System.out.println(name);
+//        }
+//        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>");
+//        System.out.println(context.getBean(Bean1.class));
     }
 
     @Configuration // 本项目的配置类
@@ -62,11 +62,11 @@ public class AutoConfigDemo {
     }
     @Configuration // 第三方的配置类
     static class AutoConfiguration1 {
-        @Bean
-        @ConditionalOnMissingBean
-        public Bean1 bean1() {
-            return new Bean1("第三方");
-        }
+//        @Bean
+//        @ConditionalOnMissingBean
+//        public Bean1 bean1() {
+//            return new Bean1("第三方");
+//        }
     }
 
     @Configuration // 第三方的配置类
