@@ -1,6 +1,6 @@
-package com.ww.frame.springTransactional;
+package com.ww.frame.spring.transactional.moreThreadTransaction;
 
-import com.ww.frame.springTransactional.service.ISpringTransactionalService;
+import com.ww.frame.spring.transactional.moreThreadTransaction.service.ISpringTransactionalService;
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

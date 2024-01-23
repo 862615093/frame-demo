@@ -1,7 +1,7 @@
-package com.ww.frame.springTransactional.mapper;
+package com.ww.frame.spring.transactional.moreThreadTransaction.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.ww.frame.springTransactional.Employee;
+import com.ww.frame.spring.transactional.moreThreadTransaction.Employee;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

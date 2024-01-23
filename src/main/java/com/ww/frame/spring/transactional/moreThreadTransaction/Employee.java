@@ -1,4 +1,4 @@
-package com.ww.frame.springTransactional;
+package com.ww.frame.spring.transactional.moreThreadTransaction;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

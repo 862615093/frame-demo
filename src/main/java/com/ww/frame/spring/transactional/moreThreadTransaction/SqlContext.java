@@ -1,4 +1,4 @@
-package com.ww.frame.springTransactional;
+package com.ww.frame.spring.transactional.moreThreadTransaction;
 
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
