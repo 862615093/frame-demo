@@ -1,4 +1,4 @@
-package com.ww.frame.aop.jdk;
+package com.ww.frame.spring.aop.jdk;
 
 import lombok.extern.slf4j.Slf4j;
 

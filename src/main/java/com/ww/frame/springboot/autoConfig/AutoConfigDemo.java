@@ -1,8 +1,6 @@
-package com.ww.frame.autoConfig;
+package com.ww.frame.springboot.autoConfig;
 
-import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.*;
-import org.springframework.context.support.GenericApplicationContext;
 import org.springframework.core.io.support.SpringFactoriesLoader;
 import org.springframework.core.type.AnnotationMetadata;
 
@@ -26,8 +24,8 @@ public class AutoConfigDemo {
 //        System.out.println(context.getBean(Bean1.class));
     }
 
-    @Configuration // 本项目的配置类
-    @Import(MyImportSelector.class)
+//    @Configuration // 本项目的配置类
+//    @Import(MyImportSelector.class)
     static class Config {
         @Bean
         public Bean1 bean1() {
@@ -60,7 +58,7 @@ public class AutoConfigDemo {
             return "Bean1{" + "name='" + name + '\'' + '}';
         }
     }
-    @Configuration // 第三方的配置类
+//    @Configuration // 第三方的配置类
     static class AutoConfiguration1 {
 //        @Bean
 //        @ConditionalOnMissingBean
@@ -69,7 +67,7 @@ public class AutoConfigDemo {
 //        }
     }
 
-    @Configuration // 第三方的配置类
+//    @Configuration // 第三方的配置类
     static class AutoConfiguration2 {
         @Bean
         public Bean2 bean2() {

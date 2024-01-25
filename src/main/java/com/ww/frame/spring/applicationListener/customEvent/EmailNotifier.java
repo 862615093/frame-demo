@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * 监听定义
  */
-@Component
+//@Component
 public class EmailNotifier implements ApplicationListener {
 
     @Override

@@ -1,4 +1,4 @@
-package com.ww.frame.aop.cglib;
+package com.ww.frame.spring.aop.cglib;
 
 import org.springframework.cglib.core.Signature;
 

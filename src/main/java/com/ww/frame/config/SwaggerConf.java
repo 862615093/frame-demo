@@ -47,7 +47,7 @@ public class SwaggerConf {
                 .groupName("1.X版本")
                 .select()
                 //这里指定Controller扫描包路径
-                .apis(RequestHandlerSelectors.basePackage("com.ww.frame.spring.springTransactional"))
+                .apis(RequestHandlerSelectors.basePackage("com.ww.frame.mybatis.multidb.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

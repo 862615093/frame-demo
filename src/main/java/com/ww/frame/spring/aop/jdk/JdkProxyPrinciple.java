@@ -1,6 +1,5 @@
-package com.ww.frame.aop.jdk;
+package com.ww.frame.spring.aop.jdk;
 
-import com.ww.frame.aop.jdk.$Proxy0;
 import lombok.extern.slf4j.Slf4j;
 
 import java.lang.reflect.InvocationHandler;
