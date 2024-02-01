@@ -16,7 +16,8 @@ public class FrameDemoApplication {
 
 //        //创建一个ApplicationEvent对象
 //        EmailEvent event = new EmailEvent("hello", "abc@163.com", "This is a test");
-//        //主动触发该事件
+//
+// 主动触发该事件
 //        run.publishEvent(event);
     }
 }
